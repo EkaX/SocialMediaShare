@@ -1,0 +1,55 @@
+<h1>Web Share API</h1>
+
+<section>
+  
+<h3>Social media share buttons with links</h3>
+
+<ul class="share">
+  
+  <!-- Facebook -->
+  <li>
+    <button onclick="window.open('https://facebook.com/share.php?u=PAGE_LINK_HERE&amp;t=PAGE_TITLE_HERE', '_blank', 'top=150,left=400,width=450,height=550')" title="Facebook"><i data-feather="facebook"></i></button>
+  </li>
+      
+  <!-- Twitter -->
+  <li>
+    <button class="share-twitter" onclick="window.open('https://twitter.com/intent/tweet?text=PAGE_TITLE_HERE&amp;url=PAGE_LINK_HERE&amp;via=USERNAME_HERE', '_blank', 'top=150,left=400,width=550,height=350')" title="Twitter"><i data-feather="twitter"></i></button>
+  </li>
+    
+  <!-- Linkedin -->
+  <li>
+    <button onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=PAGE_LINK_HERE&amp;title=PAGE_TITLE_HERE&amp;summary=PAGE_DESCRIPTION_HERE&amp;source=PAGE_NAME_HERE', '_blank', 'top=150,left=550,width=450,height=650')" title="LinkedIn"><i data-feather="linkedin"></i></button>
+  </li>
+  
+  <!-- Google+ IS DEAD
+  <li>
+    <button class="share-google" onclick="window.open('https://plus.google.com/share?url=PAGE_LINK_HERE', '_blank', 'top=150,left=400,width=400,height=550')" title="Google+">Google+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><path d="M11.51,8.35H8.94A3.5,3.5,0,0,1,9,9,3.23,3.23,0,1,1,5.76,5.8h0a3.15,3.15,0,0,1,1.91.65L9.49,4.61A5.74,5.74,0,0,0,0,9a5.72,5.72,0,0,0,5.67,5.78h.07A5.8,5.8,0,0,0,11.55,9h0A4.63,4.63,0,0,0,11.51,8.35Z"/><path d="M18,8.35H12.84V9.64H18Z"/><path d="M14.77,6.42v5.13h1.3V6.42Z"/><path d="M10.9,9.64,11.55,9V7.71H5.74v2.58H10.6Z"/></svg> 
+    </button>
+  </li> -->
+  
+  <!-- Pinterest
+  <li>
+    <button onclick="window.open('https://pinterest.com/pin/create/button/?url=PAGE_LINK_HERE&media=MEDIA_LINK_HERE&description=PAGE_DESCRIPTION_HERE', '_blank', 'top=150,left=550,width=450,height=650')" title="Pinterest">Pinterest
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,0A12,12,0,0,0,7.63,23.17a11.7,11.7,0,0,1,0-3.44l1.41-6A4.33,4.33,0,0,1,8.72,12c0-1.67,1-2.92,2.17-2.92a1.51,1.51,0,0,1,1.52,1.69,23.74,23.74,0,0,1-1,4,1.73,1.73,0,0,0,1.77,2.17c2.13,0,3.77-2.25,3.77-5.49a4.73,4.73,0,0,0-5-4.88,5.18,5.18,0,0,0-5.41,5.2,4.62,4.62,0,0,0,.89,2.74.36.36,0,0,1,.08.35c-.09.38-.29,1.19-.34,1.36s-.17.27-.4.16c-1.49-.69-2.43-2.89-2.43-4.64,0-3.79,2.75-7.26,7.93-7.26,4.16,0,7.39,3,7.39,6.93,0,4.13-2.61,7.46-6.22,7.46a3.2,3.2,0,0,1-2.75-1.38s-.61,2.29-.75,2.85a13.28,13.28,0,0,1-1.49,3.15A12.2,12.2,0,0,0,12,24,12,12,0,0,0,12,0Z"></path></svg>
+    </button>
+  </li> -->
+  
+  <!-- WhatsApp -->
+  <li>
+    <a href="whatsapp://send?text=PAGE_TITLE_HERE - PAGE_LINK_HERE" target="_blank" title="WhatsApp"><i data-feather="message-circle"></i></a>
+  </li>
+  
+<!-- Email -->
+  <li>
+    <a href="mailto:?subject=PAGE_TITLE_HERE&amp;body=PAGE_LINK_HERE" rel="noopener" title="Email"><i data-feather="mail"></i></a>
+  </li>
+  
+</ul>
+  
+<h3>Web Share API - Native mobile share popup</h3>
+  
+ <!-- Only works on iOS, Andorid and Windows mobile devices -->
+<button id="webshareapi"><i data-feather="share"></i>Share</button>
+  
+</section>

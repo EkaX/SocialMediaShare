@@ -1,0 +1,66 @@
+:root { font-size: 16px; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: monospace;
+  font-size: 0;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  background: #ffe1aa;
+}
+section {
+  margin: 0 auto;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 2rem;
+  background: #fff;
+}
+
+.share {
+  list-style: none;
+  margin: 0 auto 2rem;
+}
+.share li {
+  float: none;
+  display: inline-block;
+}
+.share button, .share a {
+  float: left;
+  display: block;
+  height: 64px;
+  width: 64px;
+  margin: .5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 0;
+  color: #000;
+  cursor: pointer;
+  background: #fff;
+  transition: all 150ms ease-in-out;
+  border: 2px solid #000;
+}
+.share button:hover, .share button:focus,
+.share a:hover, .share a:focus {
+  background: #000;
+}
+.share button:hover svg, .share button:focus svg,
+.share a:hover svg, .share a:focus svg {
+  color: #fff;
+}
